@@ -55,7 +55,7 @@ if (count > 4) {
 
 weatherDisplay.setAttribute("style", "color: white");
 
-// fetches current weather
+// fetches current weather data
 function weatherFetch(la, lo) {
     var weatherURL;
     var weatherRequestURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + la + "&lon=" + lo + "&units=imperial&appid=68415bfdd25c70f3ac38b519e186d986";
